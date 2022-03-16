@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [](https://brazilianmememaster.github.io/)
+- Live Site URL: [github-pages-link](https://brazilianmememaster.github.io/)
 
 ## My process
 
