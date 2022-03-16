@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 799px) {
+    .content {
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 10px;
+        margin: -5em 0.75em 0 0.75em;
+        height: 45vh;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .adviceNum {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: hsl(150, 100%, 66%);
+        font-size: .7em;
+        letter-spacing: 3px;
+    }
+    .text {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        margin: 0 1.75em;
+    }
+    #advice {
+        font-size: 1.25em;
+        color: hsl(193, 38%, 86%)
+    }
+    .divider {
+        display: none;
+        position: relative;
+        bottom: -25px;
+    }
+    .mobile {
+        display: flex;
+    }
+    .dice-bg {
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: -55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .dice-bg:hover {
+        box-shadow: 0 0 25px hsl(150, 100%, 66%);
+    }
+}
+
+@media(min-width: 800px) {
+    .content {
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 10px;
+        margin: -5em 0.75em 0 0.75em;
+        height: 45vh;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .adviceNum {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        color: hsl(150, 100%, 66%);
+        font-size: .7em;
+        letter-spacing: 3px;
+    }
+    .text {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+        margin: 0 3em;
+    }
+    #advice {
+        font-size: 1.5em;
+        color: hsl(193, 38%, 86%)
+    }
+    .divider {
+        display: none;
+        position: relative;
+        bottom: -25px;
+    }
+    .desktop {
+        display: flex;
+    }
+    .dice-bg {
+        background-color: hsl(150, 100%, 66%);
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        bottom: -55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .dice-bg:hover {
+        box-shadow: 0 0 25px hsl(150, 100%, 66%);
+    }
+}
